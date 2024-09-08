@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  

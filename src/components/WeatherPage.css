@@ -1,0 +1,104 @@
+/* General Page Styles */
+.weather-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(12, 0, 83), rgb(4, 0, 67));
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Map Section */
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map {
+    height: 400px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Daily Forecast Section */
+.daily-forecast {
+    margin: 30px 0;
+}
+
+.daily-forecast h3 {
+    font-size: 1.2rem;
+    color: #ffffff; /* Changed to white */
+    margin-bottom: 10px;
+}
+
+/* Daily Forecast List */
+.daily-forecast-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.daily-forecast-list-item {
+    padding: 8px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.507),  rgb(4, 0, 67)); /* Slightly transparent white */
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 12px;
+    height: 100px;
+    width: 150px;
+    align-content: center;
+    margin: 10px;
+}
+
+.daily-forecast-list li strong {
+    color: #ffffff; /* Changed to white */
+}
+
+/* 3-hour Interval Details */
+.detail-forecast-table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent; /* Transparent background */
+}
+
+.detail-forecast-table th, .detail-forecast-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: #ffffff; /* Changed text color to white */
+}
+
+.detail-forecast-table th {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+}
+
+.detail-forecast-table tr {
+    background-color: transparent; /* Transparent background */
+}
+
+.detail-forecast-table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.452); /* Red background on hover */
+}
+
+.horizantal-line{
+    width: 80%;
+    margin-top: 20px;
+    border: 2px solid #ffffff2c;
+    border-radius: 50px;
+}

@@ -11,7 +11,7 @@ const WeatherPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiKey = 'ac6d4eec894592fd86eb8a651a04b155';
+  const apiKey = 'API KEY';
 
   const fetchWeather = async () => {
     try {
